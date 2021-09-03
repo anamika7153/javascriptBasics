@@ -1,6 +1,6 @@
 
-//Data types : Primitive and non primitive
-//Primitive Data Types
+// //Data types : Primitive and non primitive
+// //Primitive Data Types
 
 let age = 21
 console.log(age)
@@ -31,3 +31,11 @@ arr.push(false)
 arr.unshift(false) //adds to beginning of array
 console.log(arr)
 console.log(typeof arr)
+
+let Name = "Anamika"
+let age = 19
+console.log(Name.toUpperCase)
+console.log(age.toString)  //coercion in js
+
+
+
