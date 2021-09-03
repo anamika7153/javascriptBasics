@@ -1,41 +1,16 @@
-//Arithmetic Operators
-const a= 5
-const b= 15
-console.log(a+b)
-console.log(a-b)
-console.log(a*b)
-console.log(a/b)
-console.log(a**b)
-console.log(a%b)
+//Logical Operators
+const a = 2
+const b = 3
+const c = 35
+console.log(c>a && c<b)
+// console.log("a==b",a==b)
+// console.log("a!=b",a!=b)
+// console.log("false && false", false && false)
+// console.log("false && true", false && true)
+// console.log("true && false", true && false)
+// console.log("true && true", true && true)
 
-//Concatenation 
-const c= "3"
-const d= 3
-console.log(c-d)
-
-//Assignment Operators
-let n= "Anamika"
-let x = 19
- x+=n
- console.log(x)
- console.log(typeof x)
-
-//Comparison Operators
-const p = 55
-const q = 95
-const r = 35
-
-console.log(p>q)
-console.log(p<q)
-console.log(p>=q)
-console.log(p==q)
-console.log(p!=q)
-console.log("===============")
-
-//
-const m=11
-const z="11"
-console.log(m==z)
-console.log(m===z)
-console.log(false && true)
-console.log(true && true)
+// console.log("false or false", false|| false)
+// console.log("false or true", false || true)
+// console.log("true or false", true || false)
+// console.log("true or true", true || true)
