@@ -1,14 +1,16 @@
+const button = document.querySelector('button')
 const element = document.querySelector('#selectMe')
+const body = document.querySelector('body')
 
-// console.log(element.classList)
-// element.classList.add('five')
-// console.log(element.classList)
-// element.classList.remove('three')
-// console.log(element.classList)
-
-// const body = document.querySelector('body')
-// console.log(body.classList.toggle('dark'))
-
- const value = element.classList.contains('two')
- console.log(value)
-
+button.addEventListener('click',()=>{
+    //element.classList.toggle('aqua')
+    //  OR
+    // if(element.classList.contains('aqua')){
+    //     element.classList.remove('aqua')
+    // }else{
+    //     element.classList.add('aqua')
+    // }
+    //element.style.fontSize= "30px"
+    
+    body.classList.toggle('dark')
+})
