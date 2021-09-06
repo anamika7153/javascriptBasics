@@ -1,33 +1,14 @@
+// const rock = document.querySelector('#rock')
+// const paper = document.querySelector('#paper')
+// const scissors = document.querySelector('#scissors')
 
-//Data types : Primitive and non primitive
-//Primitive Data Types
+function logName(Name="Enter your name", age=18){
+    console.log(Name + " You are " + age)
+}
+logName("Anamika")
 
-let age = 21
-console.log(age)
-console.log(typeof age)
-console.log(" ")
-
-var Name = "Anamika"
-let Nam = "Kartik"
-console.log(Name)
-console.log(Nam)
-console.log(typeof Nam)
-console.log(" ")
-
-var charr = '45jgbkmjg'
-console.log(typeof charr)
-console.log(" ")
-let brand=null
-console.log(brand)
-console.log(typeof brand)
-console.log(typeof undefined)
-
-let isTrue=true
-
-//Non-Primitive Data Types
-let arr = [1,2,3,4]
-arr.push("value")
-arr.push(false)
-arr.unshift(false) //adds to beginning of array
-console.log(arr)
-console.log(typeof arr)
+function add(a=0, b=0) {
+    const sum = a+b
+    return sum
+}
+console.log(add(12,99))
