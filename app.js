@@ -1,5 +1,7 @@
-// const element = document.getElementById('selectMe')
-// const element = document.getElementsByClassName('heading')
-// const element = document.getElementsByTagName('div')
-const element = document.querySelectorAll('.heading')
-console.log(element)
+const element = document.querySelector('#selectMe')
+
+element.innerHTML = "This is from JS"
+
+element.style.color ="cyan"
+element.style.fontSize ="40px"
+element.style = "display:none"
