@@ -1,23 +1,29 @@
+//ES6 Arrow Function
 
-const obj = {
-    nam: "Anamika Yadav",
-    email: "aanyayadav419@gmail.com",
-    age: 20
-}
-console.log(obj.email)
-let {nam,age,email,dumb} = obj
-console.log(email)
-console.log(dumb)
-console.log("==================")
+// function add() {
+//     return x+y
+// }
 
-let person = {
-    firstname: "Rini",
-    lastname: "Srivastava",
-    age1: 40,
-    middlename:"abc"
+// let add = function(x,y) {
+//     return x+y
+// }
+// console.log(add(10,5))
+
+
+let add  = (x,y) => {     //Arrow Function: doesnt have its own value
+    return x+y
 }
-let {age1,firstname,lastname,middlename=""} = person
-console.log(age1)
-console.log(firstname)
-console.log(middlename)
-console.log(lastname)
+console.log(add(10,5))
+
+const counter = {
+    count:2,
+    modified: function() {
+        return ++(this.count)    //it is working as method here
+    },
+    key1: this.count,   //will not work
+    key: this.location.href
+}
+console.log(counter)
+console.log(counter.modified())
+console.log(counter)
+console.log(counter.modified())
