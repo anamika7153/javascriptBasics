@@ -1,33 +1,15 @@
+console.log("hi")
+var arr = [1,2,3,4]
+console.log(arr[2])
+var [one,two,three,four,five]=[1,2,3,4]  //ES6-Destructuring
+console.log(three)
+console.log(four) 
+console.log(five)         //undefined
 
-//Data types : Primitive and non primitive
-//Primitive Data Types
-
-let age = 21
-console.log(age)
-console.log(typeof age)
-console.log(" ")
-
-var Name = "Anamika"
-let Nam = "Kartik"
-console.log(Name)
-console.log(Nam)
-console.log(typeof Nam)
-console.log(" ")
-
-var charr = '45jgbkmjg'
-console.log(typeof charr)
-console.log(" ")
-let brand=null
-console.log(brand)
-console.log(typeof brand)
-console.log(typeof undefined)
-
-let isTrue=true
-
-//Non-Primitive Data Types
-let arr = [1,2,3,4]
-arr.push("value")
-arr.push(false)
-arr.unshift(false) //adds to beginning of array
-console.log(arr)
-console.log(typeof arr)
+function getScores() {
+    return [90,100]
+}
+let [x,y,z] = getScores();
+console.log(x)
+console.log(y)
+console.log(z)
