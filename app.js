@@ -1,33 +1,23 @@
+console.log("MERGED CLASS 2 ES6");
 
-//Data types : Primitive and non primitive
-//Primitive Data Types
+let ranks = [1, 2, 3, 4];
 
-let age = 21
-console.log(age)
-console.log(typeof age)
-console.log(" ")
+console.log(
+  ranks.map((e, index) => {
+    return e * 100;
+  })
+);
 
-var Name = "Anamika"
-let Nam = "Kartik"
-console.log(Name)
-console.log(Nam)
-console.log(typeof Nam)
-console.log(" ")
+console.log(
+  ranks.forEach((e, index) => {
+    return e * 100;
+  })
+);
 
-var charr = '45jgbkmjg'
-console.log(typeof charr)
-console.log(" ")
-let brand=null
-console.log(brand)
-console.log(typeof brand)
-console.log(typeof undefined)
-
-let isTrue=true
-
-//Non-Primitive Data Types
-let arr = [1,2,3,4]
-arr.push("value")
-arr.push(false)
-arr.unshift(false) //adds to beginning of array
-console.log(arr)
-console.log(typeof arr)
+let newarr = ranks.map((e, index) => {
+    console.log(e)
+    console.log(index)
+    if(e%2===0)
+        return e
+})
+console.log(newarr);
